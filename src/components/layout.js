@@ -40,7 +40,7 @@ const Layout = ({ children, location }) => {
       `}
       render={data => (
         <>
-          <main>{children}</main>
+          <main key={location.pathname}>{children}</main>
         </>
       )}
     />
