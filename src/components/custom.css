@@ -1,0 +1,12 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 20%;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}

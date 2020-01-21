@@ -1,0 +1,50 @@
+import ExampleForm from "../components/ExampleForm"
+import {Link} from "gatsby"
+
+# Web controls explained
+
+To keep things simpler, I'll be using one page for a while. While having lots of pages and links on a screen may be nice visually, there is an entirely different experience for people who use screen readers.
+
+<p>
+  That is the most important takeaway that you can come away with today: <br />
+  <pre>
+  <em>
+    Web browsers are a powerful tool that enables websites to be useful to an
+    incredibly wide number of people.
+  </em>
+  </pre>
+</p>
+
+As a company, we have a legal responsibility to make sure that someone's disability doesn't prevent them from being able to use our website.
+
+More than that, Accessibility is a way that we can respect the dignity of our users, by extending everyone the same opportunities to learn about and shop for our products as everyone else.
+
+During this presentation, I'm drawing attention to the ways that people with limited sight and or mobility may interact with a website, using keyboard controls and a screen reader to interact with a website.
+
+Most of us probably rely heavily on a mouse, when we are using a desktop computer. Other than that, we're used to simply tapping on our phone screen to interact with the part of the page that we want to control.
+
+However, you're probably realizing right now that that approach doesn't work as well if you can't see precisely what your mouse is hovering over, or any of the content on your screen.
+
+Fortunately, the people responsible for building our devices and web browsers had A11Y in mind when they designed the web. 
+
+Behind the scenes, all webpages are broken down into chunks that various tools can work with to make content available to a user. With minimal attention to these users, we can make the exact same functionality available to everyone.
+
+## Keyboard controls
+
+Some of these chunks, referred to as "Elements" or "Tags", have specific logic about how they can be used by a keyboard, or assistive modes on a phone.
+
+These options include:
+<ul>
+    <li>Links (the <code>{`<a>`}</code> tag)</li>
+    <li>Buttons (the <code>{`<button>`}</code> tag)</li>
+    <li>Forms</li>
+    <li>Form Inputs</li>
+</ul>
+
+Let's look at a simple form:
+
+<ExampleForm />
+
+Thanks to the special functionality of a web browser, I can understand what is happening as I work through the page.
+
+<Link to="/4">Other Use Cases for Accessibility</Link>
